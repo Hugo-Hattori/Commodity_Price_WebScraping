@@ -26,4 +26,3 @@ tabela["Comprar"] = tabela["Preço Atual"] < tabela["Preço Ideal"]
    
 #Criando planilha nova atualizada
 tabela.to_excel("commodities_atualizado.xlsx", index=False)
-
