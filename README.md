@@ -12,7 +12,7 @@ timing to make a commodity purchase by analysing the current commodity price and
 respective "ideal prices" are contained within the company's database, so we need to
 use the pandas package to extract that data.</p>
 
-https://github.com/Hugo-Hattori/Commodity_Price_Analysis/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_Analysis.py#L5-L7
+https://github.com/Hugo-Hattori/Commodity_Price_WebScraping/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_WebScraping.py#L5-L7
 
 <p>The simulated database is the "commodities.xlsx" file.</p>
 
@@ -24,15 +24,15 @@ https://github.com/Hugo-Hattori/Commodity_Price_Analysis/blob/70ec1101b6e438ddc7
 search for the prices by just adding a String containing the commodity's name on the site's
 hyperlink (e.g.: "https://www.melhorcambio.com/commodity_name")</p>
 
-https://github.com/Hugo-Hattori/Commodity_Price_Analysis/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_Analysis.py#L9-L18
+https://github.com/Hugo-Hattori/Commodity_Price_WebScraping/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_WebScraping.py#L9-L18
 
 ## Updating the database
 <p>Now we need to update the database and compare the current prices with the "ideal"
 ones, if the current price is lower than the "ideal" than it is right time to make the
 commodity purchase otherwise it is advised to wait.</p>
 
-https://github.com/Hugo-Hattori/Commodity_Price_Analysis/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_Analysis.py#L20-L21
-https://github.com/Hugo-Hattori/Commodity_Price_Analysis/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_Analysis.py#L24-L28
+https://github.com/Hugo-Hattori/Commodity_Price_WebScraping/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_WebScraping.py#L20-L21
+https://github.com/Hugo-Hattori/Commodity_Price_WebScraping/blob/70ec1101b6e438ddc7f3263d8b47bd275862b75e/Commodity_Price_WebScraping.py#L24-L28
 
 <p>The updated database was named "commodities_atualizado.xlsx".</p>
 
