@@ -1,4 +1,4 @@
-# Commodity Price Analysis
+# Commodity Price Web Scraping
  <p>This small project aims to help a fictional importing company to decide the right 
 timing to make a commodity purchase by analysing the current commodity price and the 
 "ideal price" established by the company.</p>
